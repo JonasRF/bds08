@@ -22,6 +22,7 @@
   .base-card-store-select-filter {
     width: 486px;
     margin-left: 30px;
+    margin-top: 40px;
   }
 
   .sales-filter-store-container {
@@ -38,6 +39,7 @@
   .base-card-store-select-filter {
     width: 688px;
     margin-left: 24px;
+    margin-top: 40px;
   }
 
   .store-filter-select__indicator-separator {
@@ -49,6 +51,7 @@
   .base-card-store-select-filter {
     width: 920px;
     margin-right: 40px;
+    margin-top: 40px;
   }
 
   .store-filter-select__indicator-separator {
