@@ -1,0 +1,12 @@
+.container-fluid {
+  height: 70px;
+}
+
+.container-fluid h1 {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  color: var(--blue-color);
+  padding: 24px 40px;
+  height: 22px;
+}

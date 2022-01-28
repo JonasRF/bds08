@@ -1,0 +1,125 @@
+.pie-chart-card {
+  width: 300px;
+  height: 430px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.pie-chart-card-container {
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.pie-chart-card-container h1 {
+  color: #334ac3;
+  font-size: 36px;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.pie-chart-card-title {
+  color: #8d8d8d;
+  font-size: 18px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.apexcharts-legend.apexcharts-align-center {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+}
+
+.apexcharts-canvas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+@media (min-width: 576px) {
+  .pie-chart-card-container {
+    width: 505px;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+
+  .pie-chart-card-container h1 {
+    margin-left: 40px;
+  }
+
+  .pie-chart-card-title {
+    margin-left: 40px;
+  }
+
+  .pie-chart-card {
+    margin-left: 130px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pie-chart-card-all {
+    padding-bottom: 60px;
+  }
+
+  .pie-chart-card-container {
+    width: 704px;
+    height: 530px;
+    margin-left: 25px;
+    padding-bottom: 30px;
+  }
+
+  .pie-chart-card-container h1 {
+    margin-left: 40px;
+  }
+
+  .pie-chart-card-title {
+    margin-left: 40px;
+  }
+
+  .pie-chart-card {
+    margin-left: 240px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pie-chart-card-container {
+    width: 935px;
+    height: 421px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pie-chart-card-container h1 {
+    width: 2px;
+    margin-top: 210px;
+    margin-right: 0px;
+  }
+
+  .pie-chart-card-title {
+    margin-top: 100px;
+    margin-left: 0;
+    padding-right: 39px;
+  }
+
+  .pie-chart-card {
+    margin-left: 320px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pie-chart-card-container {
+    margin-left: 132px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .pie-chart-card-container {
+    margin-left: 150px;
+  }
+}

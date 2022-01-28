@@ -1,0 +1,69 @@
+.base-card-store-select-filter {
+  width: 280px;
+  height: 120px;
+  margin-top: 10px;
+  margin-left: 12px;
+
+  padding-left: 10px;
+  padding-right: 8px;
+  margin-bottom: 10px;
+}
+
+.sales-filter-store-container {
+  padding-top: 40px;
+  margin-right: 2px;
+}
+
+.store-filter-select__indicator-separator {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .base-card-store-select-filter {
+    width: 486px;
+    margin-left: 30px;
+  }
+
+  .sales-filter-store-container {
+    width: 270px;
+    margin-left: 20px;
+  }
+
+  .store-filter-select__indicator-separator {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .base-card-store-select-filter {
+    width: 688px;
+    margin-left: 24px;
+  }
+
+  .store-filter-select__indicator-separator {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .base-card-store-select-filter {
+    width: 920px;
+    margin-right: 40px;
+  }
+
+  .store-filter-select__indicator-separator {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .base-card-store-select-filter {
+    margin-left: 130px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .base-card-store-select-filter {
+    margin-left: 148px;
+  }
+}
